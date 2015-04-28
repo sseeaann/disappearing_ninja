@@ -1,0 +1,14 @@
+* {
+	margin: 0px auto;
+	padding: 0px;
+}
+
+.container {
+	width: 970px;
+	padding: 25px;
+}
+
+	img {
+		width: 200px;
+		border: 1px solid black;
+	}

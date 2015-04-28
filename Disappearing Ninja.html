@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="description" content="Disappearing Ninja">
+		<title>Disappearing Ninja</title>
+		<link rel="stylesheet" href="Disappearing Ninja.css">
+		<script type="text/javascript" src="jquery-1.11.2.min.js"></script>
+		<script type="text/javascript">
+			$(document).on('click', 'img', function(){
+				$(this).hide();
+				$('button').click(function(){
+					$('img').show();
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<div class="container">
+			<h1>jQuery - assignment 1</h1>
+			<div class="row1">
+				<img src="ninja.jpeg">
+				<img src="ninja.jpeg">
+				<img src="ninja.jpeg">
+				<img src="ninja.jpeg">
+			</div>
+			<div class="row2">
+				<img src="ninja.jpeg">
+				<img src="ninja.jpeg">
+				<img src="ninja.jpeg">
+				<img src="ninja.jpeg">
+			</div>
+			<button>Restore</button>
+		</div>
+	</body>
+</html>
